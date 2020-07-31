@@ -8,8 +8,8 @@ class Comparing:
         self.hand = hand
         pass
 
-    @staticmethod
-    def handValue(hand):
+    #@staticmethod
+    def handValue(self,hand):
         value = 0
 
         for n in range (1,7):

@@ -20,6 +20,7 @@ class Reroll:
                 if int(die) not in outcome:
                     print("You don't have this record in your dice pool, try again")
                     continue
+
                 else:
                     count += 1
                     outcome.remove(int(die))
