@@ -9,8 +9,8 @@ class Figure:
     def sorting(self):
         return self.outcome.sort()
 
-    @staticmethod
-    def checking(outcome):
+    #@staticmethod
+    def checking(self, outcome):
 
         figures = []
         is_full = []
